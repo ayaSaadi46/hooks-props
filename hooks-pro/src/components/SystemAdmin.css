@@ -1,0 +1,51 @@
+.SystemAdmin-container {
+    margin: 20px;
+  }
+  
+  .SystemAdmin-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .SystemAdmin-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .SystemAdmin-table th, .SystemAdmin-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .SystemAdmin-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .SystemAdmin-row:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .SystemAdmin-profileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .SystemAdmin-deleteButton, .SystemAdmin-updateButton {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .SystemAdmin-updateButton {
+    background-color: #007bff;
+  }
+  
+  .SystemAdmin-deleteButton:hover, .SystemAdmin-updateButton:hover {
+    background-color: #c82333;
+  }
+  
